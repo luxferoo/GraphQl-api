@@ -1,0 +1,28 @@
+{
+  "jwt": {
+    "expiresIn": "1h",
+    "secret": "secret_key"
+  },
+  "db": {
+    "development": {
+      "username": "luxfero",
+      "password": "password",
+      "database": "gift_dev",
+      "host": "127.0.0.1",
+      "dialect": "postgres",
+      "logging": false,
+      "operatorsAliases": false,
+      "port": 5432
+    },
+    "production": {
+      "username": "luxfero",
+      "password": "password",
+      "database": "gift_production",
+      "host": "127.0.0.1",
+      "dialect": "postgres",
+      "logging": false,
+      "operatorsAliases": false,
+      "port": 5432
+    }
+  }
+}

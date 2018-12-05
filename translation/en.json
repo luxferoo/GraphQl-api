@@ -1,0 +1,24 @@
+{
+  "invalid": {
+    "email": {
+      "format" : "invalid email format, exam@ple.ma",
+      "notUnique" : "%email% is already used"
+    },
+    "password": {
+      "newFormat" : "invalid new password format",
+      "format" : "invalid password format",
+      "notMatch" : "Password and confirmation password are not equal",
+      "password" : "Your password is invalid",
+      "samePasswords" : "Old password and new password must to be differents"
+    },
+    "combination" : "Incorrect combination"
+  },
+  "done" : {
+    "password" : {
+      "change" : "Password changed successfully"
+    }
+  },
+  "401" : "You're not authorized to perform this action",
+  "500" : "Try later",
+  "400" : "Invalid parameter value in the request."
+}
