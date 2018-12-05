@@ -82,9 +82,7 @@ you should something like this :
   'Content-Type': 'application/json',
   'Authorization': 'Bearer {token}',
 }
-- Graphiql doesn't provide a way to add the bearer token to the header you should use another tool to do that or you can do this.
-
-1 - Go to [ROOT]/middlewares/security.js and hardcode your token :
+- Graphiql doesn't provide a way to add the bearer token to the header you should use another tool to do that or you can just go to [ROOT]/middlewares/security.js and hardcode your token :
 
 ```node
     import models from '../models';
